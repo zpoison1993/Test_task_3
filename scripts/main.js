@@ -1,10 +1,8 @@
 var myCards = document.querySelector('.game__container');
 var resultsArray = [];
 var counter = 00;
-// var text = document.getElementById('text');
 var seconds = 00;
 var mSeconds = 00;
-var tries = 00;
 var appendTens = document.getElementById("m-seconds");
 var appendSeconds = document.getElementById("seconds");
 var buttonStart = document.querySelector('.btn_start');
