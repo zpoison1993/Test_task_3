@@ -1,0 +1,81 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vladimir\/Documents\/web\/Loftschool\/test_pair\/styles\/layout\/base\.scss}line{font-family:\000031}}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vladimir\/Documents\/web\/Loftschool\/test_pair\/styles\/layout\/base\.scss}line{font-family:\000037}}
+html, body {
+  font-family: 'Exo 2', sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vladimir\/Documents\/web\/Loftschool\/test_pair\/styles\/layout\/base\.scss}line{font-family:\0000314}}
+ul {
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vladimir\/Documents\/web\/Loftschool\/test_pair\/styles\/layout\/base\.scss}line{font-family:\0000319}}
+ul li {
+  list-style-type: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vladimir\/Documents\/web\/Loftschool\/test_pair\/styles\/layout\/base\.scss}line{font-family:\0000323}}
+a {
+  color: inherit;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vladimir\/Documents\/web\/Loftschool\/test_pair\/styles\/layout\/base\.scss}line{font-family:\0000328}}
+button {
+  border: none;
+  cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vladimir\/Documents\/web\/Loftschool\/test_pair\/styles\/layout\/base\.scss}line{font-family:\0000333}}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vladimir\/Documents\/web\/Loftschool\/test_pair\/styles\/layout\/base\.scss}line{font-family:\0000338}}
+.wrapper {
+  overflow: hidden;
+  width: 100%;
+  min-width: 320px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #dbb87f;
+  background: linear-gradient(0deg, #dbb87f 16%, #ed7f7f 77%);
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vladimir\/Documents\/web\/Loftschool\/test_pair\/styles\/layout\/base\.scss}line{font-family:\0000350}}
+  .wrapper::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: url(../images/Palm2.png) center center no-repeat;
+    background-size: contain;
+    width: 50%;
+    height: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vladimir\/Documents\/web\/Loftschool\/test_pair\/styles\/layout\/base\.scss}line{font-family:\0000360}}
+  .wrapper::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url(../images/Palm3.png) center center no-repeat;
+    background-size: contain;
+    width: 50%;
+    height: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Vladimir\/Documents\/web\/Loftschool\/test_pair\/styles\/layout\/base\.scss}line{font-family:\0000371}}
+.container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10; }
+
+/*# sourceMappingURL=base.css.map */
